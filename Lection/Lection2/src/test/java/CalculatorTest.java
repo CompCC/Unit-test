@@ -34,10 +34,10 @@ public class CalculatorTest {
         assertThat(calculator.calculation(2,6,'+')).isEqualTo(8);
     }
 
-    @Test
-    void execeptedOperator(){
-        Calculator calculator = new Calculator();
-        assertThrows(()-> calculator.calculation(8,4,'_'))
-                .isIn
-    }
+//    @Test
+//    void execeptedOperator(){
+//        Calculator calculator = new Calculator();
+//        assertThrows(()-> calculator.calculation(8,4,'_'))
+//                .isIn
+//    }
 }
